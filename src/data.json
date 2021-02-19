@@ -1,0 +1,90 @@
+{
+    "products" : [{
+        "_id:" : "dress1",
+        "image" : "/images/dress1.jpg",
+        "title" : "title1fsdfsdfsd sdfsdfsd title1",
+        "description" : "sdsff",
+        "price" : 12,
+        "availableSize" : ["S","XS"]
+    },
+    {
+        "_id:" : "dress2",
+        "image" : "/images/dress2.jpg",
+        "title" : "title2fs fsfsdfsdfs dfsdfdsfsfsfsdfs",
+        "description" : "sdsffdfsdfsf",
+        "price" : 12,
+        "availableSize" : ["S","XL"]
+    },
+    {
+        "_id:" : "dress3",
+        "image" : "/images/dress3.jpg",
+        "title" : "title2sfdfsdfsdfsdfsfsfsdfsdfs",
+        "description" : "sdsffdfsdfsf",
+        "price" : 12,
+        "availableSize" : ["S","XL"]
+    },
+    {
+        "_id:" : "dress4",
+        "image" : "/images/dress4.jpg",
+        "title" : "title2fsdfsfdfsfsfsdfsfsfdsfs",
+        "description" : "sdsffdfsdfsf",
+        "price" : 12,
+        "availableSize" : ["S","XL"]
+    },
+    {
+        "_id:" : "dress5",
+        "image" : "/images/dress5.jpg",
+        "title" : "title sdfsdfsfdfsfssfssgsdgs",
+        "description" : "sdsffdfsdfsf",
+        "price" : 12,
+        "availableSize" : ["S","XL"]
+    },
+    {
+        "_id:" : "dress6",
+        "image" : "/images/dress6.jpg",
+        "title" : "title2dsfsdfsfsdfsdfsfdf",
+        "description" : "sdsffdfsdfsf",
+        "price" : 12,
+        "availableSize" : ["S","XL"]
+    },
+    {
+        "_id:" : "dress7",
+        "image" : "/images/dress7.jpg",
+        "title" : "title2fsfsfsdfsdfsfdsfsdf",
+        "description" : "sdsffdfsdfsf",
+        "price" : 12,
+        "availableSize" : ["S","XL"]
+    },
+    {
+        "_id:" : "dress8",
+        "image" : "/images/dress8.jpg",
+        "title" : "title2fdsfsdfsdfsfsdfs",
+        "description" : "sdsffdfsdfsf",
+        "price" : 12,
+        "availableSize" : ["S","XL"]
+    },
+    {
+        "_id:" : "dress9",
+        "image" : "/images/dress9.jpg",
+        "title" : "title2dfsfsfsdfsfsfsfsdfsf",
+        "description" : "sdsffdfsdfsf",
+        "price" : 12,
+        "availableSize" : ["S","XL"]
+    },
+    {
+        "_id:" : "dress10",
+        "image" : "/images/dress10.jpg",
+        "title" : "title2sdfdsfsfsdfsfsdfsd",
+        "description" : "sdsffdfsdfsf",
+        "price" : 12,
+        "availableSize" : ["S","XL"]
+    },
+    {
+        "_id:" : "dress11",
+        "image" : "/images/dress11.jpg",
+        "title" : "title2fsffsfdfsfffssdsds",
+        "description" : "sdsffdfsdfsf",
+        "price" : 12,
+        "availableSize" : ["S","XL"]
+    }]
+}
