@@ -45,7 +45,6 @@ a:hover {
 
 main {
   grid-area: main;
-  height: 89.6vh;
 }
 
 footer {
@@ -55,4 +54,82 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.content {
+display: flex;
+flex-wrap: wrap;
+}
+
+.main{
+flex: 3 60rem;
+}
+
+.sidebar {
+flex: 1 20rem
+}
+
+/* Products css */
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  padding: 0%;
+  margin: 0%;
+  list-style-type: none;
+}
+
+.products li {
+ flex: 1 1 12rem;
+ height: 27rem;
+ padding: 1rem;
+ margin: 1rem; 
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85%;
+}
+
+.product img{
+  /* max-width: 37rem;
+  max-height: 15rem;
+  min-height: 15rem; */
+  height: 15rem;
+  width: 15rem;
+}
+
+.products p {
+  font-size: initial;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-price div, 
+.product-price button {
+  text-align: center;
+}
+
+.product-price div {
+  font-size: 2rem;
+}
+
+.button {
+  padding: .5rem;
+  border: .1rem #c0c0c0 solid;
+  background-color: white;
+}
+.button:hover{
+  border: .1rem #808080 solid;
+}
+.button.primary{
+  background-color: #ffc000;
 }
