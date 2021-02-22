@@ -25,7 +25,7 @@ class App extends React.Component {
 
     this.state={
       products: data.products,
-      cartItems: [],
+      cartItems: localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) : [],
       size: '',
       sort: '',
       count: 0
@@ -74,12 +74,18 @@ this.setState({
     cartItems.push({...product, count: 1})
   }
   this.setState({cartItems})
+  localStorage.setItem("cartItems", JSON.stringify(cartItems))
   }
 
   removeFromCart = (item) => {
     let cartItems = this.state.cartItems.slice();
    cartItems = cartItems.filter(cartitem =>  cartitem._id !== item._id)
-   this.setState({cartItems})
+    this.setState({cartItems})
+   localStorage.setItem("cartItems", JSON.stringify(cartItems));
+  }
+
+  createOrder = (order) => {
+alert("create order")
   }
 
   render() {
@@ -96,7 +102,7 @@ this.setState({
                 <ProductList products={this.state.products} addToCart={this.addToCart}></ProductList>
               </div>
               <div className="sidebar">
-                <Cart  cartItems={this.state.cartItems} removeFromCart={this.removeFromCart}></Cart>
+                <Cart  cartItems={this.state.cartItems} removeFromCart={this.removeFromCart} createOrder={this.createOrder}></Cart>
               </div>
               </div></main>
              <footer>footer</footer>
