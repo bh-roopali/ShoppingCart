@@ -51,7 +51,7 @@ render() {
                 <p><strong>{product.title}</strong></p>
                 <p>{product.description}</p>
                 <p>{product.availableSize.map(prd => (<span>{" "}<button className="button">{prd}</button></span>))}</p>
-                <div>
+                <div className="product-price">
                     <div>
                         {Formatecurrency(product.price)}
                     </div>
